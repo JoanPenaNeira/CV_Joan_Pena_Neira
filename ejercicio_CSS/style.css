@@ -69,3 +69,7 @@ span {
 article:last-of-type > p {
   font-style: italic;
 }
+a { color: inherit; text-decoration: underline; }
+p { margin: .5rem 0; }
+header p { margin: .25rem 0 0; font-size: 0.95rem; }
+footer p { margin: 0; font-size: 0.9rem; opacity: 0.95; }
