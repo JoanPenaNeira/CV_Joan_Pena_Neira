@@ -47,3 +47,25 @@ article {
   margin-bottom: 0.6rem;
   transition: background-color .18s ease, color .18s ease;
 }
+section:first-of-type:hover,
+article:hover {
+  background: var(--clr-hover-bg);
+  color: var(--clr-hover-text);
+}
+
+section:first-of-type:hover a,
+article:hover a {
+  color: var(--clr-hover-text);
+}
+
+a:active {
+  color: var(--clr-link-active);
+}
+
+span {
+  font-weight: 700;
+}
+
+article:last-of-type > p {
+  font-style: italic;
+}
