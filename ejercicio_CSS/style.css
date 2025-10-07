@@ -1,0 +1,22 @@
+:root {
+  --clr-header-footer: rgb(84,120,193);
+  --clr-header-footer-text: #ffffff;
+  --clr-section-bg: rgba(210,223,251, 0.8);
+  --clr-section-text: rgb(73,105,169);
+  --clr-hover-bg: rgb(10,15,24);
+  --clr-hover-text: #ffffff;
+  --clr-link-active: #000000;
+}
+
+
+html { font-size: 110%; box-sizing: border-box; }
+*, *::before, *::after { box-sizing: inherit; }
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  color: #000; 
+}
+
+h3 { font-size: 1.3rem; }
