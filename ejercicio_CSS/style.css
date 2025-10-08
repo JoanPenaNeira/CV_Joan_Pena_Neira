@@ -7,3 +7,13 @@ p {
 h3 {
   font-size: 1.3rem;
 }
+
+header {
+  background-color: rgb(84,120,193);
+  color: white;
+}
+
+footer {
+  background-color: rgb(84,120,193);
+  color: white;
+}
