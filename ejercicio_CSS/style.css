@@ -36,3 +36,7 @@ article:hover {
 a:active {
   color: black;
 }
+
+.texto-en-negrita {
+  font-weight: bold;
+}
