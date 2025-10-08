@@ -17,3 +17,18 @@ footer {
   background-color: rgb(84,120,193);
   color: white;
 }
+
+section {
+  background-color: rgba(210,223,251, 0.8);
+  color: rgb(73,105,169);
+}
+
+section:hover {
+  background-color: rgb(10,15,24);
+  color: white;
+}
+
+article:hover {
+  background-color: rgb(10,15,24);
+  color: white;
+}
