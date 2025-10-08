@@ -1,4 +1,12 @@
-:root
+:root {
+  --color-background-header-footer: rgb(84,120,193); 
+  --color-background-section: rgba(210,223,251, 0.8);
+  --color-backgorund-hover: rgb(10,15,24);
+  --color-texto: white;
+  --color-texto-link: black;
+  --color-texto-section: rgb(73,105,169);
+}
+
 p {
   font-size: 1.1rem;
   font-family: "Roboto", sans-serif;
@@ -9,32 +17,32 @@ h3 {
 }
 
 header {
-  background-color: rgb(84,120,193);
-  color: white;
+  background-color: var(--color-background-header-footer);
+  color: var(--color-texto);
 }
 
 footer {
-  background-color: rgb(84,120,193);
-  color: white;
+  background-color: var(--color-background-header-footer);
+  color: var(--color-texto);
 }
 
 section {
-  background-color: rgba(210,223,251, 0.8);
-  color: rgb(73,105,169);
+  background-color: var(--color-background-section);
+  color: var(--color-texto-section);
 }
 
 section:hover {
-  background-color: rgb(10,15,24);
-  color: white;
+  background-color: var(--color-backgorund-hover);
+  color: var(--color-texto);
 }
 
 article:hover {
-  background-color: rgb(10,15,24);
-  color: white;
+  background-color: var(--color-backgorund-hover);
+  color: var(--color-texto);
 }
 
 a:active {
-  color: black;
+  color: var(--color-texto-link);
 }
 
 .texto-en-negrita {
