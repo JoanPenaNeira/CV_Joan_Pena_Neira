@@ -5,3 +5,22 @@ header {
     text-align: center; 
 }
 
+.intro {
+    background-color: #faf8ee;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+    
+
+.parallax {
+  background-image: url(../img/olive-oil_1920.webp);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 20vw;
+}
