@@ -24,3 +24,6 @@ header {
   width: 100vw;
   height: 20vw;
 }
+section {
+    padding: 2rem 3rem;
+}
