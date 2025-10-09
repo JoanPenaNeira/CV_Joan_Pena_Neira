@@ -31,7 +31,7 @@ section {
   color: var(--color-texto-section);
 }
 
-section:hover {
+section:first-of-type:hover {
   background-color: var(--color-backgorund-hover);
   color: var(--color-texto);
 }
@@ -39,6 +39,10 @@ section:hover {
 article:hover {
   background-color: var(--color-backgorund-hover);
   color: var(--color-texto);
+}
+
+article:last-of-type > p {
+  font-style: Italic;
 }
 
 a:active {
