@@ -22,6 +22,9 @@ nav {
 }
 nav#vertical { width: 20vw; }
 nav ul {
+   list-style-type: none;
+  padding: 0;
+  margin: 0;
   /* Afegir codi aquí */
 }
 nav#horizontal ul {
