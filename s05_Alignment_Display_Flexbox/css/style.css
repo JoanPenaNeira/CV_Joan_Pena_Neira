@@ -25,7 +25,7 @@ nav ul {
    list-style-type: none;
   padding: 0;
   margin: 0;
-  /* Afegir codi aquí */
+  /* Afegir codi aquí: linees de TESTEO */
 }
 nav#horizontal ul {
   height: 3.5rem;
@@ -38,7 +38,9 @@ li {
   height: 100%;
 }
 nav#horizontal li {
-  /* Afegir codi aquí */
+  display: inline-block; /* Muestra los elementos uno al lado del otro */
+  margin-right: 10px; /* Añade espacio entre los elementos */
+  /* Afegir codi aquí: linees de TESTEO */
 }
 nav#vertical li {
   width: 100%;
@@ -48,7 +50,8 @@ li:hover {
   background-color: var(--fourth-color); /* #2E120C; */
 }
 li#logo {
-  /* Afegir codi aquí */
+  padding: 10px;
+  /* Afegir codi aquí: linees TESTEO */
 }
 li#logo:hover {
   background-color: var(--third-color); /* #752E20; */
