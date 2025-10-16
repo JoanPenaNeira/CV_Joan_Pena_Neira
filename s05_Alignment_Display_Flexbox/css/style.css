@@ -1,0 +1,17 @@
+/* Quita las viñetas y el espaciado por defecto de la lista */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Coloca los elementos de la lista en horizontal */
+nav li {
+  display: inline-block; /* O puedes usar display: inline; */
+  margin-right: 20px; /* Añade espacio entre elementos */
+}
+
+/* Elimina el subrayado de los enlaces */
+nav a {
+  text-decoration: none;
+}
