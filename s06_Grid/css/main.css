@@ -13,3 +13,8 @@ h1 {
   background-color: rgb(253, 213, 197);
   padding: 1rem;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1 fr;
+  grid-gap: 5px;
+}
