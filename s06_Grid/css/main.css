@@ -18,3 +18,6 @@ h1 {
   grid-template-columns: 1fr 2fr 1 fr;
   grid-gap: 5px;
 }
+.grid-item.item1 {
+  grid-column: 1/4;
+}
