@@ -30,3 +30,6 @@ h1 {
 .grid-item.item-4 {
   grid-row: 2 / 4;
 }
+.grid-item.item-5 {
+  grid-column: 1 / 4;
+}
