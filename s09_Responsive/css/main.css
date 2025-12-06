@@ -25,3 +25,9 @@
         content: "tablet";
     }
 }
+
+@media (min-width: 900px) and (max-width: 1199px) {
+    .titol::after {
+        content: "laptop";
+    }
+}
