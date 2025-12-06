@@ -3,20 +3,33 @@
     margin-top: 40px;
 }
 
-.icona {
-    width: 120px;
-    height: auto;
-}
-
 .titol::after {
     content: "";
     font-size: 2rem;
     font-weight: bold;
 }
 
+.icona {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 20px auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
 @media (max-width: 599px) {
     .titol::after {
         content: "phone";
+    }
+    .icona {
+        background-image: url("../img/phone-icon.svg");
+    }
+    body {
+        background-color: #566a42;
     }
 }
 
@@ -24,16 +37,34 @@
     .titol::after {
         content: "tablet";
     }
+    .icona {
+        background-image: url("../img/tablet-icon.svg");
+    }
+    body {
+        background-color: #375f78;
+    }
 }
 
 @media (min-width: 900px) and (max-width: 1199px) {
     .titol::after {
         content: "laptop";
     }
+    .icona {
+        background-image: url("../img/laptop-icon.svg");
+    }
+    body {
+        background-color: #583066;
+    }
 }
 
 @media (min-width: 1200px) {
     .titol::after {
         content: "desktop";
+    }
+    .icona {
+        background-image: url("../img/desktop-icon.svg");
+    }
+    body {
+        background-color: #6e5a5a;
     }
 }
