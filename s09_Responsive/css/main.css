@@ -7,3 +7,15 @@
     width: 120px;
     height: auto;
 }
+
+.titol::after {
+    content: "";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 599px) {
+    .titol::after {
+        content: "phone";
+    }
+}
