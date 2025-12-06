@@ -31,3 +31,9 @@
         content: "laptop";
     }
 }
+
+@media (min-width: 1200px) {
+    .titol::after {
+        content: "desktop";
+    }
+}
