@@ -7,6 +7,7 @@
   --padding-side-mobile: 1.2rem;    /* padding orientativo para móvil */
   --gap-nav-items: 1.6rem;
   --transition: all 0.3s ease;      /*animación para extra visual con hover de elementos */
+  --padding-side-desktop: 2.5rem;   /* padding orientativo para monitor de escritorio */
   }
 
 * {             /* Reset basico */
@@ -115,4 +116,32 @@ body {          /* tipografia basica */
 .cv-download:focus {
   background-color: var(--color-accent);
   color: #0a0a0a;
+}
+
+/* Responsive (mobile-first) */
+@media (max-width: 768px) {
+  .navbar {
+    padding-left: var(--padding-side-desktop);
+    padding-right: var(--padding-side-desktop);
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .nav-list {
+    gap: 2rem;
+  }
+
+  .social-icon {
+    width: 26px;
+    height: 26px;
+  }
+
+  .brand-name {
+    font-size: 1.35rem;
+  }
+
+  .cv-download {
+    padding: 0.45rem 0.9rem;
+    font-size: 0.95rem;
+  }
 }
