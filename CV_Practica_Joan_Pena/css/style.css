@@ -145,3 +145,23 @@ body {          /* tipografia basica */
     font-size: 0.95rem;
   }
 }
+
+/* Para pantallas muy pequeñas (mobiles de menos de 480px) */
+@media (max-width: 480px) {
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .nav-list {
+    gap: 1.2rem;
+  }
+
+  .brand-name {
+    font-size: 1.3rem;
+  }
+
+  .cv-download {
+    display: none;               /* recomendación extra de ia, ya que la pantalla es demasiado pequeña para mantener icono CV */
+  }
+}
