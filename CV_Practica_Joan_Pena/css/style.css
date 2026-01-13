@@ -5,8 +5,15 @@
   --color-border: #333333;
   }
 
+* {             /* Reset basico */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {          /* tipografia basica */
   font-family: system-ui, -apple-system, sans-serif;
   background-color: #111;
   color: var(--color-text);
 }
+
