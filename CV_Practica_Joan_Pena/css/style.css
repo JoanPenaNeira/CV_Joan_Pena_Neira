@@ -17,3 +17,13 @@ body {          /* tipografia basica */
   color: var(--color-text);
 }
 
+.site-header {
+  position: fixed;               /* barra estatica segun se baja en la web */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);    /* sombreado para conseguir efecto de profundidad y contrastar mejor el resto */
+}
