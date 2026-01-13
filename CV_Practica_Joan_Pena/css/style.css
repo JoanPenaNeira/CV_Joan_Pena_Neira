@@ -52,3 +52,8 @@ body {          /* tipografia basica */
   letter-spacing: -0.5px;
   white-space: nowrap;              /* recomendación de la ia para evitar que se rompa en dos líneas diferentes */
 }
+
+.navbar-brand .brand-name:hover,
+.navbar-brand .brand-name:focus {
+  color: var(--color-accent);
+}
