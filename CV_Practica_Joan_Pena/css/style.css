@@ -4,6 +4,7 @@
   --color-accent: #ffffff;       /* blanco para hover */
   --color-border: #333333;
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  --padding-side-mobile: 1.2rem;    /* padding orientativo para móvil */
   }
 
 * {             /* Reset basico */
@@ -27,4 +28,13 @@ body {          /* tipografia basica */
   background-color: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
   box-shadow: var(--shadow);    /* sombreado para conseguir efecto de profundidad y contrastar mejor el resto */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 1rem var(--padding-side-mobile); /* pensado para requisito de base mobile-first */
 }
