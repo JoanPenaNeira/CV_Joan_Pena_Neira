@@ -3,6 +3,7 @@
   --color-text: #b0b0b0;         /* gris claro para texto estandard */
   --color-accent: #ffffff;       /* blanco para hover */
   --color-border: #333333;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
   }
 
 * {             /* Reset basico */
@@ -25,5 +26,5 @@ body {          /* tipografia basica */
   z-index: 1000;
   background-color: var(--color-bg);
   border-bottom: 1px solid var(--color-border);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);    /* sombreado para conseguir efecto de profundidad y contrastar mejor el resto */
+  box-shadow: var(--shadow);    /* sombreado para conseguir efecto de profundidad y contrastar mejor el resto */
 }
