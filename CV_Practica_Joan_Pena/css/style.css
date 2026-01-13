@@ -1,0 +1,6 @@
+:root {                            /* variables para optimizar codigo (color, animaciones, etc.*/
+  --color-bg: #0a0a0a;           /* negro muy oscuro para fondo de la barra */
+  --color-text: #b0b0b0;         /* gris claro para texto estandard */
+  --color-accent: #ffffff;       /* blanco para hover */
+  --color-border: #333333;
+  }
