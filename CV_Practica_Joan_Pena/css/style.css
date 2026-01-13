@@ -38,3 +38,17 @@ body {          /* tipografia basica */
   margin: 0 auto;
   padding: 1rem var(--padding-side-mobile); /* pensado para requisito de base mobile-first */
 }
+
+/* Elemento en izquierda de la barra: Nombre */
+.navbar-brand {
+  padding-left: 0;      /*para que se situe muy pegado al borde izquierdo */
+}
+
+.navbar-brand .brand-name {
+  color: var(--color-text);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: -0.5px;
+  white-space: nowrap;              /* recomendación de la ia para evitar que se rompa en dos líneas diferentes */
+}
