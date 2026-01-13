@@ -86,3 +86,17 @@ body {          /* tipografia basica */
   color: var(--color-accent);
   outline: none;
 }
+
+/* Iconos de redes sociales */
+.social-icon {
+  width: 28px;
+  height: 28px;
+  filter: brightness(0.7) grayscale(0.4);
+  transition: var(--transition);
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  filter: brightness(1) grayscale(0);
+  transform: scale(1.15);
+}
