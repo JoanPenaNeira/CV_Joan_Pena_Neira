@@ -100,3 +100,19 @@ body {          /* tipografia basica */
   filter: brightness(1) grayscale(0);
   transform: scale(1.15);
 }
+
+/* Enlace CV para visualizarlo o descargarlo */
+.cv-download {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color-accent);
+  border-radius: 6px;
+  color: var(--color-accent);
+  font-weight: 600;
+  transition: var(--transition);
+}
+
+.cv-download:hover,
+.cv-download:focus {
+  background-color: var(--color-accent);
+  color: #0a0a0a;
+}
