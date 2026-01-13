@@ -5,6 +5,8 @@
   --color-border: #333333;
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
   --padding-side-mobile: 1.2rem;    /* padding orientativo para móvil */
+  --gap-nav-items: 1.6rem;
+  --transition: all 0.3s ease;      /*animación para extra visual con hover de elementos */
   }
 
 * {             /* Reset basico */
@@ -56,4 +58,31 @@ body {          /* tipografia basica */
 .navbar-brand .brand-name:hover,
 .navbar-brand .brand-name:focus {
   color: var(--color-accent);
+}
+
+/* Derecha: elementos de contacto */
+.navbar-menu {
+  padding-right: 0;                 /* para que se situe muy pegado al borde derecho */
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: var(--gap-nav-items);                  
+  align-items: center;
+  margin: 0;
+}
+
+.nav-item a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.nav-item a:hover,
+.nav-item a:focus {
+  color: var(--color-accent);
+  outline: none;
 }
