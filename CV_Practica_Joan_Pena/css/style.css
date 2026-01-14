@@ -182,6 +182,14 @@ body {          /* tipografia basica */
     position: absolute;
     inset: 0;
     z-index: -1;
+    background-image: url('../assets/hero_background_PLACEHOLDER.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Modo capa overlay como photoshop, para armonizar mejor tonalidades */
+    background-color: rgba(0, 0, 0, 0.55);
+    background-blend-mode: multiply;
 }
 
 .hero-content {
