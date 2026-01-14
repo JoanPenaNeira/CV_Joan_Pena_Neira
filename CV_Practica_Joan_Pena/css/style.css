@@ -170,12 +170,14 @@ body {          /* tipografia basica */
 
 .hero {
     position: relative;
-    height: 100vh;
-    min-height: 700px;
+    height: auto;
+    min-height: 65vh;
+    max-height: 90vh;
     display: flex;
     align-items: center;
     color: white;
     overflow: hidden;
+    aspect-ratio: 2.4 / 1;
 }
 
 .hero-background {
