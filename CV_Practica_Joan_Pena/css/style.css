@@ -228,3 +228,13 @@ body {          /* tipografia basica */
     opacity: 0.95;
     letter-spacing: -0.8px;
 }
+
+@media (min-width: 768px) {
+    .hero-content {
+        padding: 4rem 2.5rem;
+    }
+    
+    .hero-text {
+        max-width: 720px;
+    }
+}
