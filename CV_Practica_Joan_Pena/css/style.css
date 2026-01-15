@@ -244,3 +244,21 @@ body {          /* tipografia basica */
     }
 }
 
+.sobre-mi {   /* SECCION SOBRE MI */
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  padding: 120px 0;
+}
+
+.sobre-mi .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+.sobre-mi-contenido {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 90px;
+  align-items: start;
+}
