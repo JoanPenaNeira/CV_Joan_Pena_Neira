@@ -1,13 +1,18 @@
 :root {                            /* variables para optimizar codigo (color, animaciones, etc.*/
-  --color-bg: #0a0a0a;           /* negro muy oscuro para fondo de la barra */
-  --color-text: #b0b0b0;         /* gris claro para texto estandard */
-  --color-accent: #ffffff;       /* blanco para hover */
-  --color-border: #333333;
+  --color-bg-navbar: #0a0a0a;           /* negro muy oscuro para fondo de la barra */
+  --color-text-navbar: #b0b0b0;         /* gris claro para texto estandard */
+  --color-accent-navbar: #ffffff;       /* blanco para hover */
+  --color-border-navbar: #333333;
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
   --padding-side-mobile: 1.2rem;    /* padding orientativo para móvil */
   --gap-nav-items: 1.6rem;
   --transition: all 0.3s ease;      /*animación para extra visual con hover de elementos */
   --padding-side-desktop: 2.5rem;   /* padding orientativo para monitor de escritorio */
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-muted: #4a4a4a;
+  --color-accent: #2563eb;
+  --color-border: #e5e7eb;
   }
 
 * {             /* Reset basico */
@@ -19,7 +24,7 @@
 body {          /* tipografia basica */
   font-family: system-ui, -apple-system, sans-serif;
   background-color: #111;
-  color: var(--color-text);
+  color: var(--color-text-navbar);
 }
 
 .site-header {
@@ -28,8 +33,8 @@ body {          /* tipografia basica */
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: var(--color-bg);
-  border-bottom: 1px solid var(--color-border);
+  background-color: var(--color-bg-navbar);
+  border-bottom: 1px solid var(--color-border-navbar);
   box-shadow: var(--shadow);    /* sombreado para conseguir efecto de profundidad y contrastar mejor el resto */
 }
 
@@ -48,7 +53,7 @@ body {          /* tipografia basica */
 }
 
 .navbar-brand .brand-name {
-  color: var(--color-text);
+  color: var(--color-text-navbar);
   font-size: 1.5rem;
   font-weight: 700;
   text-decoration: none;
@@ -58,7 +63,7 @@ body {          /* tipografia basica */
 
 .navbar-brand .brand-name:hover,
 .navbar-brand .brand-name:focus {
-  color: var(--color-accent);
+  color: var(--color-accent-navbar);
 }
 
 /* Derecha: elementos de contacto */
@@ -75,7 +80,7 @@ body {          /* tipografia basica */
 }
 
 .nav-item a {
-  color: var(--color-text);
+  color: var(--color-text-navbar);
   text-decoration: none;
   font-size: 1.05rem;
   font-weight: 500;
@@ -84,7 +89,7 @@ body {          /* tipografia basica */
 
 .nav-item a:hover,
 .nav-item a:focus {
-  color: var(--color-accent);
+  color: var(--color-accent-navbar);
   outline: none;
 }
 
@@ -105,16 +110,16 @@ body {          /* tipografia basica */
 /* Enlace CV para visualizarlo o descargarlo */
 .cv-download {
   padding: 0.5rem 1rem;
-  border: 1px solid var(--color-accent);
+  border: 1px solid var(--color-accent-navbar);
   border-radius: 6px;
-  color: var(--color-accent);
+  color: var(--color-accent-navbar);
   font-weight: 600;
   transition: var(--transition);
 }
 
 .cv-download:hover,
 .cv-download:focus {
-  background-color: var(--color-accent);
+  background-color: var(--color-accent-navbar);
   color: #0a0a0a;
 }
 
@@ -238,3 +243,4 @@ body {          /* tipografia basica */
         max-width: 720px;
     }
 }
+
