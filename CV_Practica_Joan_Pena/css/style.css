@@ -228,7 +228,7 @@ body {          /* tipografia basica */
 .hero-role {
     font-size: clamp(2.0rem, 6.5vw, 4.0rem);
     font-weight: 500;
-    color: var(--color-accent);
+    color: white;
     margin-bottom: 1.8rem;
     opacity: 0.95;
     letter-spacing: -0.8px;
