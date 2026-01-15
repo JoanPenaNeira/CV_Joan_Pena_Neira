@@ -271,3 +271,31 @@ body {          /* tipografia basica */
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
   transition: var(--transition);
 }
+
+.descripcion h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin: 0 0 40px 0;
+  line-height: 1.1;
+  color: #000000;
+  letter-spacing: -0.5px;
+}
+
+.descripcion p {
+  font-size: 1.18rem;
+  line-height: 1.78;
+  margin-bottom: 1.8em;
+  color: var(--color-text-muted);
+  font-weight: 400;
+}
+
+.descripcion p strong { /* añadir contraste entre negrita y texto normal */
+  color: #000000;
+  font-weight: 600;
+}
+
+.descripcion p:first-of-type { /* toque personal para generar contraste entre tamaños de texto */
+  font-size: 1.28rem; /* primer paragrafo más grande que el resto de texto */
+  font-weight: 600;
+  color: #000000;
+}
