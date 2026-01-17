@@ -387,3 +387,26 @@ body {          /* tipografia basica */
   align-items: center;
   justify-content: center;
 }
+
+/* Sección de Proyectos */
+.projects-section {
+    padding: 50px 20px; /* Espacio alrededor */
+    text-align: center; /* Centrar el h2 */
+    background-color: #1e1e1e; /* Fondo ligeramente más claro que body para contraste */
+}
+
+.projects-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/* Grid para las cards */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 30px; /* Espacio entre cards */
+    max-width: 1200px; /* Ancho máximo para centrar */
+    margin: 0 auto; /* Centrar el grid */
+}
