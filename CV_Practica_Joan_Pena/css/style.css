@@ -424,3 +424,9 @@ body {          /* tipografia basica */
 .project-card:hover {
     transform: translateY(-5px); /* efecto visual para hover */
 }
+
+.project-card h3 { /*ajuste estilo para titulo del proyecto */
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: white; 
+}
