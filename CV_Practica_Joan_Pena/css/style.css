@@ -430,3 +430,9 @@ body {          /* tipografia basica */
     margin-bottom: 10px;
     color: white; 
 }
+
+.project-card p {
+    font-size: 1em;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
