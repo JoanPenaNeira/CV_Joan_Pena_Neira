@@ -420,3 +420,7 @@ body {          /* tipografia basica */
     text-align: left; /* Alineación interna izquierda */
     transition: transform 0.3s;
 }
+
+.project-card:hover {
+    transform: translateY(-5px); /* efecto visual para hover */
+}
