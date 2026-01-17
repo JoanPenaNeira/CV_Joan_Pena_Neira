@@ -172,6 +172,14 @@ body {          /* tipografia basica */
   .cv-download {
     display: none;               /* recomendación extra de ia, ya que la pantalla es demasiado pequeña para mantener icono CV */
   }
+
+  .sobre-mi .container {
+    padding: 0 20px;
+  }
+
+  .descripcion h2 {
+    font-size: 2.2rem;
+  }
 }
 
 /* HERO SECTION - Base inicial */
@@ -312,4 +320,12 @@ body {          /* tipografia basica */
   padding-left: 1.6em;
   position: relative;
   color: var(--color-text-muted);
+}
+
+.habilidades-list li::before {
+  content: "✓";
+  color: var(--color-accent);
+  position: absolute;
+  left: 0;
+  font-weight: bold;
 }
