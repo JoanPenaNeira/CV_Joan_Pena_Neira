@@ -299,3 +299,17 @@ body {          /* tipografia basica */
   font-weight: 600;
   color: #000000;
 }
+
+.habilidades-list {
+  list-style: none;
+  padding: 0;
+  margin: 32px 0 0 0;
+}
+
+.habilidades-list li {
+  font-size: 1.15rem;
+  margin-bottom: 1.1em;
+  padding-left: 1.6em;
+  position: relative;
+  color: var(--color-text-muted);
+}
