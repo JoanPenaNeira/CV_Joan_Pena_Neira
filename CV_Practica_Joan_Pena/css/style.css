@@ -436,3 +436,13 @@ body {          /* tipografia basica */
     margin-bottom: 15px;
     line-height: 1.5;
 }
+
+.project-card ul.technologies {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.project-card ul.technologies li {
+    font-size: 0.9em;
+}
