@@ -153,7 +153,7 @@ body {          /* tipografia basica */
   .hero {
         padding-top: 80px; /* espacio para navbar fija */
     }
-    
+
   .sobre-mi {
     padding: 80px 0;
   }
@@ -353,4 +353,17 @@ body {          /* tipografia basica */
   position: absolute;
   left: 0;
   font-weight: bold;
+}
+
+.parallax-transicion {  /* imagen con efecto paralax */
+  height: 70vh; /* Altura visual elegante */
+  background-image: url("../assets/paralax_img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
