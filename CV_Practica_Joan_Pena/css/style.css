@@ -514,3 +514,8 @@ body {          /* tipografia basica */
   border-left: 4px solid #4CAF50;
   transition: all 0.3s ease;
 }
+
+.experience-content:hover {
+  transform: translateX(10px);
+  box-shadow: 0 10px 30px rgba(76,175,80,0.12);
+}
