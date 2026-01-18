@@ -464,3 +464,10 @@ body {          /* tipografia basica */
 .project-card a:hover {
     background-color: #4ba750;
 }
+
+/* Seccion Experiencia Laboral */
+.experiencia-section {
+  background: #1e1e1e;
+  color: white;
+  padding: 80px 20px;
+}
