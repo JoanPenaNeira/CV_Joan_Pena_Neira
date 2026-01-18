@@ -471,3 +471,8 @@ body {          /* tipografia basica */
   color: white;
   padding: 80px 20px;
 }
+
+.experiencia-section .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
