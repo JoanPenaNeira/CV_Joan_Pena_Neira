@@ -532,3 +532,14 @@ body {          /* tipografia basica */
   margin-bottom: 16px;
   display: block;
 }
+
+.description ul {
+  margin: 0;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.description li {
+  margin-bottom: 10px;
+  color: #ddd;
+}
