@@ -490,3 +490,19 @@ body {          /* tipografia basica */
   flex-direction: column;
   gap: 50px;
 }
+
+.experience-item {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 40px;
+  align-items: start;
+  position: relative;
+}
+
+.experience-date {
+  text-align: right;
+  color: #777;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-top: 8px;
+}
