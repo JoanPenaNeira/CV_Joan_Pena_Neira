@@ -484,3 +484,9 @@ body {          /* tipografia basica */
   color: white;
   letter-spacing: 1px;
 }
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
