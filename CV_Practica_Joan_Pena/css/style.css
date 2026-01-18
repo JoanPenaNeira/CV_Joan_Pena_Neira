@@ -190,6 +190,17 @@ body {          /* tipografia basica */
   .projects-grid {
         grid-template-columns: 1fr; /* 1 columna */
     }
+
+  .experience-item {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  
+  .experience-date {
+    text-align: left;
+    font-size: 1rem;
+    color: #999;
+  }
 }
 
 /* Para pantallas muy pequeñas (mobiles de menos de 480px) */
