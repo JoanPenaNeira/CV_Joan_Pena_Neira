@@ -554,3 +554,28 @@ body {          /* tipografia basica */
   margin-bottom: 10px;
   color: #ddd;
 }
+
+.formacion-section {  /*SECCION FORMACIÓN ACADEMICA*/
+  background: #1e1e1e;
+  color: white;
+  padding: 80px 20px;
+}
+
+.formacion-section .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.formacion-section h2 {
+  text-align: center;
+  font-size: 2.4rem;
+  margin-bottom: 60px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.formacion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
