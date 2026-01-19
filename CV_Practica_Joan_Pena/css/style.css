@@ -614,3 +614,10 @@ body {          /* tipografia basica */
   color: white;
   font-size: 1.5rem;
 }
+
+.institucion {
+  color: #4CAF50;
+  font-weight: 600;
+  margin-bottom: 16px;
+  display: block;
+}
