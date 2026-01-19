@@ -579,3 +579,27 @@ body {          /* tipografia basica */
   flex-direction: column;
   gap: 50px;
 }
+
+.formacion-item {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 40px;
+  align-items: start;
+  position: relative;
+}
+
+.formacion-date {
+  text-align: right;
+  color: #777;
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-top: 8px;
+}
+
+.formacion-content {
+  background: #252525;
+  padding: 28px 32px;
+  border-radius: 12px;
+  border-left: 4px solid #4CAF50;
+  transition: all 0.3s ease;
+}
