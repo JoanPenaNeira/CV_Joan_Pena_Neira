@@ -621,3 +621,9 @@ body {          /* tipografia basica */
   margin-bottom: 16px;
   display: block;
 }
+
+.description p {
+  margin: 0 0 12px 0;
+  color: #ddd;
+  line-height: 1.6;
+}
