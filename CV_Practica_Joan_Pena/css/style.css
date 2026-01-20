@@ -537,17 +537,29 @@ main {
     padding-bottom: 1.2rem;
   }
 
+  .navbar-brand {
+    flex-shrink: 0;
+  }
+
+  .navbar-menu {
+    margin-left: auto;
+  }
+
+  .navbar-brand + .navbar-menu {
+    margin-left: 1.5rem;            /* ← esto separa bien el nombre de los iconos */
+  }
+
   .nav-list {
-    gap: 2rem;
+    gap: 2.2rem;
   }
 
   .social-icon {
-    width: 26px;
-    height: 26px;
+    width: 34px;
+    height: 34px;
   }
 
   .brand-name {
-    font-size: 1.35rem;
+    font-size: 1.clamp(1.2rem, 5vw, 1.45rem);
   }
 
   .cv-download {
@@ -648,8 +660,17 @@ main {
   }
 
   .nav-list {
-    gap: 1.2rem;
+    gap: 1.4rem;
   }
+
+  .social-icon {
+      width: 28px;
+      height: 28px;
+    }
+
+    .navbar-brand + .navbar-menu {
+      margin-left: 1rem;
+    }
 
   .brand-name {
     font-size: 1.3rem;
