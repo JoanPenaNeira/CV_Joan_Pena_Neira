@@ -562,6 +562,14 @@ main {
     aspect-ratio: auto;
   }
 
+  .hero-name {
+    font-size: clamp(2.8rem, 9vw, 5.5rem);
+  }
+
+  .hero-role {
+    font-size: clamp(1.6rem, 5.5vw, 3rem);
+  }
+
   .sobre-mi {
     padding: 80px 0;
   }
