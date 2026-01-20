@@ -25,6 +25,11 @@ body {          /* tipografia basica */
   font-family: system-ui, -apple-system, sans-serif;
   background-color: #111;
   color: var(--color-text-navbar);
+  min-height: 100vh;
+}
+
+main {
+  display: block;
 }
 
 .site-header {
@@ -123,137 +128,20 @@ body {          /* tipografia basica */
   color: #0a0a0a;
 }
 
-/* Responsive (mobile-first) */
-@media (max-width: 768px) {
-  .navbar {
-    padding-left: var(--padding-side-desktop);
-    padding-right: var(--padding-side-desktop);
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
-  }
 
-  .nav-list {
-    gap: 2rem;
-  }
-
-  .social-icon {
-    width: 26px;
-    height: 26px;
-  }
-
-  .brand-name {
-    font-size: 1.35rem;
-  }
-
-  .cv-download {
-    padding: 0.45rem 0.9rem;
-    font-size: 0.95rem;
-  }
-
-  .hero {
-        padding-top: 80px; /* espacio para navbar fija */
-    }
-
-  .sobre-mi {
-    padding: 80px 0;
-  }
-
-  .sobre-mi-contenido {
-    grid-template-columns: 1fr;
-    gap: 50px;
-    text-align: center;
-  }
-
-  .foto-perfil {
-    max-width: 380px;
-    margin: 0 auto;
-  }
-
-  .descripcion h2 {
-    font-size: 2.6rem;
-    text-align: center;
-  }
-
-  .descripcion {
-    text-align: left;   /* Mantenemos texto alineado izquierda para lectura */
-  }
-
-  .parallax-transicion {
-    background-attachment: scroll;
-    height: 50vh;
-  }
-
-  .parallax-overlay h2 {
-    font-size: 2.4rem;
-  }
-  
-  .projects-grid {
-        grid-template-columns: 1fr; /* 1 columna */
-    }
-
-  .experience-item {
-    grid-template-columns: 1fr;
-    gap: 12px;
-  }
-  
-  .experience-date {
-    text-align: left;
-    font-size: 1rem;
-    color: #999;
-  }
-
-  .formacion-item {
-    grid-template-columns: 1fr;
-    gap: 12px;
-  }
-  
-  .formacion-date {
-    text-align: left;
-    font-size: 1rem;
-    color: #999;
-  }
-}
-
-/* Para pantallas muy pequeñas (mobiles de menos de 480px) */
-@media (max-width: 480px) {
-  .navbar {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .nav-list {
-    gap: 1.2rem;
-  }
-
-  .brand-name {
-    font-size: 1.3rem;
-  }
-
-  .cv-download {
-    display: none;               /* recomendación extra de ia, ya que la pantalla es demasiado pequeña para mantener icono CV */
-  }
-
-  .sobre-mi .container {
-    padding: 0 20px;
-  }
-
-  .descripcion h2 {
-    font-size: 2.2rem;
-  }
-}
 
 /* HERO SECTION - Base inicial */
 
 .hero {
     position: relative;
     height: auto;
-    min-height: 65vh;
+    min-height: 50vh;
     max-height: 90vh;
     display: flex;
     align-items: center;
     color: white;
     overflow: hidden;
-    aspect-ratio: 2.4 / 1;
+    aspect-ratio: auto;
 }
 
 .hero-background {
@@ -300,16 +188,6 @@ body {          /* tipografia basica */
     margin-bottom: 1.8rem;
     opacity: 0.95;
     letter-spacing: -0.8px;
-}
-
-@media (min-width: 768px) {
-    .hero-content {
-        padding: 4rem 2.5rem;
-    }
-    
-    .hero-text {
-        max-width: 720px;
-    }
 }
 
 .sobre-mi {   /* SECCION SOBRE MI */
@@ -648,4 +526,133 @@ body {          /* tipografia basica */
 .description li {
   margin-bottom: 8px;
   color: #ddd;
+}
+
+/* Responsive (mobile-first) */
+@media (max-width: 768px) {
+  .navbar {
+    padding-left: var(--padding-side-desktop);
+    padding-right: var(--padding-side-desktop);
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+  }
+
+  .nav-list {
+    gap: 2rem;
+  }
+
+  .social-icon {
+    width: 26px;
+    height: 26px;
+  }
+
+  .brand-name {
+    font-size: 1.35rem;
+  }
+
+  .cv-download {
+    padding: 0.45rem 0.9rem;
+    font-size: 0.95rem;
+  }
+
+  .hero {
+        padding-top: 80px; /* espacio para navbar fija */
+    }
+
+  .sobre-mi {
+    padding: 80px 0;
+  }
+
+  .sobre-mi-contenido {
+    grid-template-columns: 1fr;
+    gap: 50px;
+    text-align: center;
+  }
+
+  .foto-perfil {
+    max-width: 380px;
+    margin: 0 auto;
+  }
+
+  .descripcion h2 {
+    font-size: 2.6rem;
+    text-align: center;
+  }
+
+  .descripcion {
+    text-align: left;   /* Mantenemos texto alineado izquierda para lectura */
+  }
+
+  .parallax-transicion {
+    background-attachment: scroll;
+    height: 50vh;
+  }
+
+  .parallax-overlay h2 {
+    font-size: 2.4rem;
+  }
+  
+  .projects-grid {
+        grid-template-columns: 1fr; /* 1 columna */
+    }
+
+  .experience-item {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  
+  .experience-date {
+    text-align: left;
+    font-size: 1rem;
+    color: #999;
+  }
+
+  .formacion-item {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  
+  .formacion-date {
+    text-align: left;
+    font-size: 1rem;
+    color: #999;
+  }
+}
+
+@media (min-width: 768px) {
+    .hero-content {
+        padding: 4rem 2.5rem;
+    }
+    
+    .hero-text {
+        max-width: 720px;
+    }
+}
+
+/* Para pantallas muy pequeñas (mobiles de menos de 480px) */
+@media (max-width: 480px) {
+  .navbar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .nav-list {
+    gap: 1.2rem;
+  }
+
+  .brand-name {
+    font-size: 1.3rem;
+  }
+
+  .cv-download {
+    display: none;               /* recomendación extra de ia, ya que la pantalla es demasiado pequeña para mantener icono CV */
+  }
+
+  .sobre-mi .container {
+    padding: 0 20px;
+  }
+
+  .descripcion h2 {
+    font-size: 2.2rem;
+  }
 }
