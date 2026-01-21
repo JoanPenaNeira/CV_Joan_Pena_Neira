@@ -688,3 +688,79 @@ main {
     font-size: 2.2rem;
   }
 }
+
+/* Media Print */
+
+@media print {
+  /*  Evita que se corten elementos entre páginas */
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /*  Codigo para ocultar elementos  */
+  header nav,
+  .menu,
+  .boton-contacto,
+  .social-icons,
+  footer,
+  .no-print,
+  button,
+  .hamburger,
+  .mobile-menu {
+    display: none !important;
+  }
+
+  /*  Contenido principal ocupara gran parte de impresión */
+  body {
+    margin: 0;
+    padding: 0;
+    font-size: 11pt;
+    color: black;
+    background: white !important;
+  }
+
+  main, 
+  .container,
+  .cv-wrapper {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    padding: 1cm 1.5cm;
+    box-shadow: none;
+    background: white !important;
+  }
+
+  /*  Los enlaces muestran su URL después del texto (recomendación de ia)*/
+  a {
+    text-decoration: underline;
+    color: #000 !important;
+    font-weight: normal;
+  }
+
+  a::after {
+    content: " (" attr(href) ")";
+    font-size: 0.85em;
+    color: #444;
+    word-break: break-all;
+  }
+
+  /*  Para controlar tamaño imagenes */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /*  espacio extra para las siguientes clases */
+  section, 
+  .experiencia,
+  .educacion,
+  .habilidades {
+    margin-bottom: 1.2em;
+    break-inside: avoid;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+}
